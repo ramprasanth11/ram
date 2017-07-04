@@ -7,11 +7,13 @@ public class Day {
 		String day=s.nextLine();
 		if(day=="monday"||day=="tuesday"||day=="wednesday"||day=="thursday"||day=="friday")
 		{
-			System.out.println("working day");
+			System.out.println("true");
+			
 		}
 		else 
 		{
-			System.out.println("holiday");
+			System.out.println("false");
+			
 		}
 
 	}
